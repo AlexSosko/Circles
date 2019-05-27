@@ -1,20 +1,21 @@
 body,
 html {
     height: 100%;
-    margin: 0;
+    margin: 0;    
 }
 
 body {
     padding: 120px 0;
-    box-sizing: border-box;
-
+    box-sizing: border-box; 
 }
 
 header {
     width: 100%;
+    min-width: 350px;
     height: 120px;
     background-color: rgb(39, 38, 38);
     margin-top: -120px;
+    position: absolute;
     color: white;
     font-size: 30px;
     text-align: center;
@@ -23,6 +24,7 @@ header {
 
 footer {
     width: 100%;
+    min-width: 350px;
     height: 120px;
     background-color: rgb(39, 38, 38);
     margin-bottom: -120px;
@@ -33,9 +35,10 @@ footer {
 }
 
 .container {
+    min-height: 120px;
+    min-width: 350px;
     height: 100%;
-    /* max-height: 100%; */
-
+    position: relative;
     display: flex;
     color: white;
     justify-content: space-around;
@@ -44,7 +47,7 @@ footer {
 
 .circle {
     margin: 10px;
-    width: 100px;
+    min-width: 100px;
     height: 100px;
     border-radius: 50px;
     text-align: center;
