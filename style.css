@@ -1,4 +1,4 @@
-body, html, main {
+body, html {
     height: 100%;
     margin: 0;
 }
@@ -18,13 +18,9 @@ header {
     font-size: 30px;
     text-align: center;
     line-height: 120px;
-    /* padding: 1em 0; */
-}
+    }
 
-/* header div {
-    display: inline-block;
-    vertical-align: middle;
-} */
+
 
 
 footer {
@@ -72,10 +68,3 @@ footer {
 }
 
 
-.vyrovnyat {
-    background: #fff5d7;
-    padding: 0.5em 0;
-    text-align: center;
-    /* выровнять текст и картинки по горизонтали */
-    border: 3px red solid;
-}
