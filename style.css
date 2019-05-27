@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
 }
@@ -18,10 +19,7 @@ header {
     font-size: 30px;
     text-align: center;
     line-height: 120px;
-    }
-
-
-
+}
 
 footer {
     width: 100%;
@@ -66,5 +64,3 @@ footer {
 #third-circle {
     background-color: blue;
 }
-
-
